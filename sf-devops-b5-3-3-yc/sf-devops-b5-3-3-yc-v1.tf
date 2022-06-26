@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "yandex" {
-  service_account_key_file = file("E:\\Terraform\\sf-devops-b5-3-3-yc-v1\\einheryar-yc-key.json")
+  service_account_key_file = file("<AbsPass\\FILE>")
   cloud_id  = var.cloud_id
   folder_id = var.folder_id
   zone      = var.zone
