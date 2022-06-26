@@ -1,0 +1,4 @@
+terraform init -backend-config=config.sf-devops-b5-3-7.tfbackend
+terraform plan -var-file="sf-devops-b5-3-7-yc-v1.tfvars"
+terraform apply -var-file="sf-devops-b5-3-7-yc-v1.tfvars"
+terraform destroy -var-file="sf-devops-b5-3-7-yc-v1.tfvars"
